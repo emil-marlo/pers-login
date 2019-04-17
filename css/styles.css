@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 5% 10%;
+  background-color: #B9201A;
+  max-height: 100%;
+}
+
+h1{
+  font-family: 'Hind', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2;
+  width: 70%;
+  /* margin-top: 1.5% auto; */
+  margin: 3% auto;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: .75rem;
+  line-height: 1.5;
+  width: 70%;
+  margin: 0 auto 5% auto;
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+  font-size: .75rem;
+  color: blue;
+}
+
+.container {
+  border: 1px solid grey;
+  background-color: white;
+  height: 100%;
+}
+
+.right-box {
+  text-align: center;
+  background-color: #F7F7FA;
+}
+
+.left-box {
+  padding: 2% 5%;
+  text-align: center;
+}
+
+.img-brand {
+  width: 150px;
+}
+
+.img-logo {
+  width: 300px;
+  margin: 20% auto;
+}
+
+.username-txt, .password-txt {
+  width: 70%;
+  margin: 3% auto;
+  border: 0;
+  outline: 0;
+  border-bottom: 1.5px #F7F7FA solid;
+  font-family: 'Raleway', sans-serif;
+  font-weight:  300;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  border: 0;
+  border-bottom: 1px #EF3849 solid;
+  outline: 0;
+  box-shadow: none;
+  text-align: center;
+}
+
+.form-control::placeholder {
+  text-align: center;
+}
+
+.login-btn {
+  background-color: #EF3849;
+  color: white;
+  padding: 0.375rem 0.75rem;
+  border-radius: 2rem;
+  width: 50%;
+  margin-bottom: 5%;
+}
